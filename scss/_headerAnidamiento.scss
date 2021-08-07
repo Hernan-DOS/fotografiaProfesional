@@ -1,0 +1,16 @@
+header{
+    h1 {
+        font-style: italic;
+        font-size: 30px;
+        padding: 17px;
+        border: 3px solid;
+        border-color:rgb(238, 28, 238);
+        color:black;
+        background-color: white;
+        text-decoration: underline;
+        background: repeating-radial-gradient(#f71dff, #e8eee7 50px);
+        display: flex;
+        justify-content: center;
+        height: 90px;
+       }
+}

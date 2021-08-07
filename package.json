@@ -1,0 +1,24 @@
+{
+  "name": "nueva-carpeta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hernan-DOS/nuevorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hernan-DOS/nuevorepo/issues"
+  },
+  "homepage": "https://github.com/Hernan-DOS/nuevorepo#readme",
+  "description": ""
+}

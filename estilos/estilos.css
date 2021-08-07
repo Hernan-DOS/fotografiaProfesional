@@ -1,0 +1,120 @@
+body {
+  display: grid;
+  grid-template-rows: 100px 100px;
+ }
+ 
+h1 {
+ font-style: italic;
+ font-size: 30px;
+ padding: 17px;
+ border: 3px solid;
+ border-color:rgb(238, 28, 238);
+ color:black;
+ background-color: white;
+ text-decoration: underline;
+ background: repeating-radial-gradient(#f71dff, #e8eee7 50px);
+ display: flex;
+ justify-content: center;
+ height: 90px;
+}
+
+a {
+  background: white;
+  color: black solid;
+  padding: 10px 86px 10px 86px;
+  width: 10px;
+  margin-left: 0px;
+  border: 2px solid;
+  border-color: rgb(238, 28, 238);
+}
+  
+p {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(95, 92, 92);
+   }
+
+
+ li {
+  color: black; 
+  border: 4;
+  border-color: black; 
+ }
+
+ .sombradeform {
+background-color: rgb(112, 112, 112);
+}
+
+h2  {
+  color: rgb(238, 28, 238);
+  text-decoration: underline;
+  transform: skew(1deg, 1deg);
+  
+}
+
+h3  {
+  color: rgb(238, 28, 238);
+  text-decoration: underline;
+  transform: skew(1deg, 1deg);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.nav {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around; 
+  margin-bottom: 50px;
+}
+
+
+.nav-enlace{
+  display: inline-block;
+  background: black;
+  color: whitesmoke;  
+  padding: 10px 90px 10px 40px;
+  text-decoration: none;
+}
+
+.estiloLista {
+  list-style-type: upper-alpha;
+}
+
+body {
+  background-color:lightgray;
+}
+
+.caja_flexbox{
+  background: #CCC;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.cajita_flexbox {
+  background: #777;
+  width: 50%;
+  height: 100px; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+table {
+  width: 50%;
+  border: 5px black;
+  border-color: rgb(238, 28, 238);
+}
+
+iframe {
+  width: 50%;
+  border: 5px black;
+  border-color: rgb(238, 28, 238);
+}
+
+
+
+
+

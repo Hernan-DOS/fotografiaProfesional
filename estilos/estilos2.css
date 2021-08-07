@@ -1,0 +1,112 @@
+/*SASS*/
+body {
+  background-color: black;
+}
+
+header h1 {
+  font-style: italic;
+  font-size: 50px;
+  padding: 17px;
+  border: 3px solid;
+  border-color: #a48ca5;
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+  background: repeating-radial-gradient(#a487a5, #e8eee7 50px);
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+
+h2 h3 {
+  color: #310131;
+
+}
+
+h3, h2 {
+  color: #310131;
+  text-decoration: underline;
+  transform: skew(1deg, 1deg);
+  padding-top: 20px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+
+}
+
+/*CSS*/
+body {
+  display: grid;
+  grid-template-rows: 100px 100px;
+}
+
+li {
+  color: black;
+  border: 4;
+  border-color: black;
+}
+
+.sombradeform {
+  background-color: #707070;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.nav {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.nav-enlace {
+  display: inline-block;
+  background: black;
+  color: whitesmoke;
+  padding: 10px 90px 10px 40px;
+  text-decoration: none;
+}
+
+.estiloLista {
+  list-style-type: upper-alpha;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.caja_flexbox {
+  background: #CCC;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.cajita_flexbox {
+  background: #777;
+  width: 50%;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+table {
+  width: 50%;
+  border: 5px black;
+  border-color: #ee1cee;
+}
+
+iframe {
+  width: 50%;
+  border: 5px black;
+  border-color: #ee1cee;
+}
+
+
+
+/*# sourceMappingURL=estilos2.css.map */

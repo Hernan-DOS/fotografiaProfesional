@@ -1,0 +1,94 @@
+/*SASS*/
+@import 'variables';
+@import 'headerAnidamiento';
+@import 'listas';
+@import 'extends';
+
+p {
+    font-family: $parrafo-font;
+    color: $parrafo-color;
+}
+
+h2 {
+    @extend %h2yh3;
+}
+
+h3 {
+    @extend %h2yh3;
+}
+
+/*CSS*/
+
+body {
+    display: grid;
+    grid-template-rows: 100px 100px;
+   }
+    
+  
+   li {
+    color: black; 
+    border: 4;
+    border-color: black; 
+   }
+  
+   .sombradeform {
+  background-color: rgb(112, 112, 112);
+  }
+  
+    
+  .italic {
+    font-style: italic;
+  }
+  
+  .nav {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 50px;
+  }
+  
+  
+  .nav-enlace{
+    display: inline-block;
+    background: black;
+    color: whitesmoke;  
+    padding: 10px 90px 10px 40px;
+    text-decoration: none;
+  }
+  
+  .estiloLista {
+    list-style-type: upper-alpha;
+  }
+  
+  body {
+    background-color:lightgray;
+  }
+  
+  .caja_flexbox{
+    background: #CCC;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+  }
+  
+  .cajita_flexbox {
+    background: #777;
+    width: 50%;
+    height: 100px; 
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  table {
+    width: 50%;
+    border: 5px black;
+    border-color: rgb(238, 28, 238);
+  }
+  
+  iframe {
+    width: 50%;
+    border: 5px black;
+    border-color: rgb(238, 28, 238);
+  }

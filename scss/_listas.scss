@@ -1,0 +1,10 @@
+$colores:
+ red,
+ blue,
+ yellow,
+ green,
+ rgb(238, 28, 238);
+
+ h2 h3 {
+     color: nth($colores, 5);
+ }

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Fotografia profesional es una empresa dedicada a guardar tus recuerdos en formato audiovisual y en papel para siempre">
+    <meta name="keywords"  content="Fotografía, eventos, digital, audiovisual, fotos, fotográfico, soluciones, recuerdos, álbum, casamientos, fiestas, cumpleaños, escolares, familiares, videos">
+
+	<title>Fotografia profesional - Album de fotos para Eventos</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos/animate.css">
+	<link rel="stylesheet" href="estilos/estilos2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1 class="wow animate__bounceIn">Te damos la bienvenida a Fotografia Profesional</h1>
+	</header>
+	
+	<nav class="nav">
+		<a href="inicio.html" class="nav-enlace">Inicio</a>
+	
+		<a href="queofrecemos.html" class="nav-enlace">Que ofrecemos</a>
+	
+		<a href="quienessomos.html" class="nav-enlace">Quienes somos</a>
+
+		<a href="trabajos.html" class="nav-enlace">Trabajos</a>
+
+		<a href="contacto.html" class="nav-enlace">Contacto</a>		
+	</nav>	
+
+	<div class="d-flex justify-content-center">
+		<div class="spinner-border" role="status">
+		  <span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+	<section>
+		<h2>Soluciones para tus recuerdos</h2>
+			<p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, delectus, dolorum suscipit dolore iure deleniti nesciunt qui ad, atque voluptatem at aut earum vitae unde voluptatibus! Quaerat asperiores maiores quo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquam tempore velit veritatis. Inventore illum, molestiae sit vero cupiditate, praesentium in qui magni ipsam animi ut velit sed quidem ducimus?</p>
+	</section>
+
+	<main>
+		<h2>Que Ofrecemos</h2>
+			<table width="50%" border="5" cellpadding="1" cellspacing="1">
+				<tr>
+					<td><strong>Creacion de album de fotos</strong></td>
+					<td><strong>Servicio completo para eventos</strong></td>
+				</tr>
+				<tr>
+					<td>
+						<ol> 
+							<li>Escolares</li> 
+								<ul>
+									<li>Primaria</li>
+									<li>Secundaria</li>
+									<li>Superior</li>
+								</ul>	
+							<li>Familiares</li>
+							<li>Hogareñas</li>
+						</ol>
+					<td>
+						<ol>  
+							<li>Casamientos</li>
+							<li>Fiestas</li>
+							<li>Cumpleaños</li>
+						</ol>
+					</td>
+				</tr>	
+			</table>
+		<div>
+			<h2>Quienes somos</h2>
+			<p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur ad eos vitae! Veniam quae odio enim debitis nam, at unde quis, eveniet non quidem expedita numquam sunt autem repellat!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium enim, architecto aut commodi eum eligendi dolorum est quod reprehenderit voluptatibus itaque labore hic error tempora quidem soluta adipisci dolores cupiditate.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, eos!</p>
+
+		</div>
+			
+		<div>
+			<h2>Trabajos</h2>
+			<div class="caja_flexbox">  
+				 <img class="cajita_flexbox"  src="imagenes/1.jpg" alt="fotografia profesional" height="150px"/>
+		
+				 <img class="cajita_flexbox" src="imagenes/2.jpg" alt="fotografia profesional" height="150px"/>
+		
+				 <img class="cajita_flexbox" src="imagenes/3.jpg" alt="fotografia profesional" height="150px"/>
+		
+				 <img  class="cajita_flexbox" src="imagenes/4.jpg" alt="fotografia profesional"height="150px"/>
+			</div> 
+
+		</div>
+	
+
+
+	</main>
+		
+	<section>
+		<h2>Queres comunicarte con nosotros?</h2>
+		<form id="formulario" action="enviar.php" method="POST" enctype="multipart/form-data" class="sombradeform">
+			<fieldset>
+				<legend><strong>Contacto</strong></legend>
+					<label for="nombreyapellido">Nombre y Apellido</label> 
+					<input type="text" name="nombreyapellido" maxlength="100">
+	
+					<label for="direccionemail">E-Mail</label> 
+					<input type="email" name="direccionemail">
+	
+					<textarea class="italic">Contanos sobre vos</textarea>
+	
+
+				<div>Selecciona en qué album de fotos estas interesado:<div>
+					<select name="Album">
+						<option value="Familiar">Familiar</option>
+						<option value="Amigos">Amigos</option>
+						<option value="Fiesta">Fiesta</option>
+					</select>
+		
+	
+				<div>Sexo:</div>
+					<label>Masculino</label>
+						<input type="radio" name="sexo" value="Masculino">
+					<label>Femenino</label>
+						<input type="radio" name="sexo" value="Femenino">
+					<label>Otro</label>
+						<input type="radio" name="sexo" value="Otro">
+	
+		
+				<div>Tilda si deseas recibir promociones</div>
+					<input type="checkbox" name="autorindependiente" value="1">
+				
+				
+					<input type="submit" name="submit" value="Enviar">
+					<input type="reset" name="reset" value="Limpiar">
+			</fieldset>
+		</form>
+
+	</section>
+	
+	<div>
+		<h3>Este video te puede gustar</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/uy1H6FuizjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	
+	<footer>
+		<p class="bold"> ©Copyright 2021 Fotografia. Todos los derechos reservados.</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
+
+</body>
+</html>
